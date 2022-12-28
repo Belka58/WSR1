@@ -1,0 +1,16 @@
+﻿<Page x:Class="WSR1.View.Pages.FAQ.FAQPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WSR1.View.Pages.FAQ"
+      mc:Ignorable="d" 
+      d:DesignHeight="570" d:DesignWidth="1300"
+      Title="FAQPage">
+
+    <Grid>
+        <!--Добавляю на страницу текст и задаю параметры-->
+        <TextBlock Text = "ООО «Столовые приборы»  - магазин по продаже столовых приборов и кухонной утвари. Товары можно заказать и получить в ближайшем пункте выдачи"
+                           FontSize="35" FontFamily="Comic Sans MS" TextWrapping="Wrap" VerticalAlignment="Center" Margin="20"/>
+    </Grid>
+</Page>
